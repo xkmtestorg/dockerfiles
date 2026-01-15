@@ -1,1 +1,6 @@
-# This is a template
+# speedtest container
+
+Use: https://www.speedtest.net/apps/cli
+
+
+
