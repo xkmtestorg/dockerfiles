@@ -29,6 +29,8 @@ RUN git clone https://github.com/SerendipityR-2022/Rainyun-Qiandao.git /app --de
 
 WORKDIR /app
 
+RUN tail -n 2 requirements.txt > req && mv req requirements.txt
+
 RUN pip install --no-cache-dir -r requirements.txt
 
 ENV RAINYUN_USER=""
