@@ -42,5 +42,7 @@ ENV DEBUG=false
 ENV CHROME_BIN=/usr/bin/chromium
 ENV CHROMEDRIVER_PATH=/usr/bin/chromedriver
 
+COPY rainyun.py rainyun.py
+
 CMD ["python", "rainyun.py"]
 
